@@ -1,0 +1,124 @@
+.about-us {
+    height: 90vh;
+    background-color: var(--secondary);
+    color: var(--primary);
+    width: 100%;
+}
+
+.about-us-content {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.about-us h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Helvetica bold";
+}
+
+.about-us p {
+    font-size: 40px;
+    font-family: "Helvetica Bold";
+    margin-bottom: 30px;
+}
+
+.about-us p>span:nth-child(1) {
+    color: var(--accent);
+    font-size: 1.8em;
+    padding: 0px 10px;
+}
+
+.about-us p>span:nth-child(2) {
+    color: var(--accent);
+    font-size: 1.8em;
+    padding: 0px 10px;
+    line-height: 25px;
+}
+
+.about-us mark {
+    background-color: var(--accent);
+    color: black;
+}
+
+.about-us-info {
+    height: 80vh;
+    width: 100%;
+    font-size: 40px;
+
+    font-family: "Helvetica bold";
+}
+
+.squares {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.square {
+    background-image: url(svgs/orange-square.svg);
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.squares>.square:nth-child(3) {
+    margin-top: 26px;
+}
+
+.squares>.square:nth-child(1) {
+
+    filter: brightness(0%);
+}
+
+.squares>.square:nth-child(2) {
+    filter: brightness(0%);
+    rotate: 80deg;
+}
+
+.squares>.square:nth-child(3) {
+    rotate: 23deg;
+}
+
+.squares>.square:nth-child(5) {
+    /* margin-top: 26px; */
+    filter: brightness(0%);
+    rotate: 30deg;
+}
+
+.squares>.square:nth-child(7) {
+    margin-top: -26px;
+    rotate: 45deg;
+}
+
+.about-us-info-content {
+    width: 80%;
+    margin: auto;
+}
+
+.about-us-info-content p:first-child {
+    /* color: firebrick; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.about-us-info-content p:first-child span {
+    color: var(--accent)
+}
+
+.about-us-info-content p:nth-child(3) {
+    /* color: green; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.about-us-info-content p:nth-child(3) span {
+    color: var(--accent);
+    font-size: 1.4em;
+}
